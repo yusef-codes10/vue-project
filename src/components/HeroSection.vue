@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+// this is how we have props
+import { defineProps } from 'vue'
+</script>
 
 <template>
   <section class="bg-green-700 py-20 mb-4">

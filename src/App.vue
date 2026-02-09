@@ -2,6 +2,7 @@
 import JNavbar from './components/JNavbar.vue'
 import HeroSection from './components/HeroSection.vue'
 import HomeCards from './components/HomeCards.vue'
+import JobListings from './components/JobListings.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import HomeCards from './components/HomeCards.vue'
   <JNavbar />
   <HeroSection title="Test Title" subTitle="Do not Scroll Down" />
   <HomeCards />
+  <JobListings />
 </template>
 
 <style scoped></style>

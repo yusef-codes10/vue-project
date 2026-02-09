@@ -9,6 +9,11 @@ defineProps(
       //   this is the default (in case no props passed)
       default: 'Become a Vue Dev',
     },
+    subTitle: {
+      type: String,
+      //   this is the default (in case no props passed)
+      default: 'Find the Vue job that fits your skills and needs',
+    },
   },
 )
 </script>
@@ -18,7 +23,7 @@ defineProps(
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
       <div class="text-center">
         <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">{{ title }}</h1>
-        <p class="my-4 text-xl text-white">Find the Vue job that fits your skills and needs</p>
+        <p class="my-4 text-xl text-white">{{ subTitle }}</p>
       </div>
     </div>
   </section>

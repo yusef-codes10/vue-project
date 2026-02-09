@@ -11,7 +11,7 @@ defineProps({
 
 <template>
   <div v-bind:class="`${bg} p-6 rounded-lg shadow-md`">
-    <!-- <slot></slot> -->
+    <slot></slot>
   </div>
 </template>
 

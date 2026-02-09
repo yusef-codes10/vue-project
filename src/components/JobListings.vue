@@ -7,7 +7,7 @@ console.log(jobs.value)
 </script>
 
 <template>
-  <h1>job</h1>
+  <div v-for="job in jobs" :key="job.id"></div>
 </template>
 
 <style scoped></style>

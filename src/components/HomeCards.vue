@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import JCard from './JCard.vue'
+</script>
 
 <template>
   <section class="py-4">

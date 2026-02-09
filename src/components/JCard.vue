@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <h1></h1>
+  <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+    <slot></slot>
+  </div>
 </template>
 
 <style scoped></style>

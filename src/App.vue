@@ -6,7 +6,9 @@ import HeroSection from './components/HeroSection.vue'
 <template>
   <!-- <h1 class="text-2xl bg-sky-50">You did it!</h1> -->
   <JNavbar />
-  <HeroSection />
+  <HeroSection title="Test Title" />
+  <HeroSection title="Jake the Dog" />
+  <HeroSection title="Become a Football Player" />
 </template>
 
 <style scoped></style>

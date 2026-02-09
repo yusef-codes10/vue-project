@@ -9,7 +9,7 @@ import logo from '@/assets/img/logo.png'
         <div class="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
           <!-- Logo -->
           <a class="flex flex-shrink-0 items-center mr-4" href="index.html">
-            <img class="h-10 w-auto" src="images/logo.png" alt="Vue Jobs" />
+            <img class="h-10 w-auto" v-bind:src="logo" alt="Vue Jobs" />
             <span class="hidden md:block text-white text-2xl font-bold ml-2">Vue Jobs</span>
           </a>
           <div class="md:ml-auto">

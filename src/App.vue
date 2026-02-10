@@ -10,7 +10,7 @@ import JobListings from './components/JobListings.vue'
   <JNavbar />
   <HeroSection title="Test Title" subTitle="Do not Scroll Down" />
   <HomeCards />
-  <JobListings />
+  <JobListings limit="3" />
 </template>
 
 <style scoped></style>

@@ -1,10 +1,14 @@
 <script setup>
 import jobData from '@/jobs.json'
-import { ref } from 'vue'
+import { ref, defineProps } from 'vue'
 import JobListing from './JobListing.vue'
 
 const jobs = ref(jobData)
 console.log(jobs.value)
+
+defineProps({
+  limit: Number,
+})
 </script>
 
 <template>

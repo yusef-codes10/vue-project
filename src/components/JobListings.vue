@@ -10,7 +10,7 @@ defineProps({
   limit: Number,
   showButton: {
     type: Boolean,
-    default: true,
+    default: false,
   },
 })
 </script>
@@ -29,7 +29,7 @@ defineProps({
     </div>
   </section>
 
-  <section class="m-auto max-w-lg my-10 px-6">
+  <section v-if="showButton" class="m-auto max-w-lg my-10 px-6">
     <a
       href="jobs.html"
       class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
